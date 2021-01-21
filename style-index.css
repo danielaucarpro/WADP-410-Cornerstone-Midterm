@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    position: relative;
+    padding: 10px 10px 10px 200px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    text-align: center;
+    box-shadow: 1px 1px 10px gray;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#navbar ul{ 
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#navbar a{
+    color: black;
+    width: 100px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+#navbar a:hover{
+    font-style: unset;
+    opacity: 100%;
+}
+
+#mainMenu-container{
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+#search-container{
+    margin-top: 8px;
+    font-size: 18pt;
+    float: right;
+}
+
+#search-button{
+    margin-top: 6px;
+    margin-left: 10px;
+    border: none;
+    float: right;
+    background-color:rgb(228, 228, 228);
+    opacity: 70%;
+}
+
+#search-button:hover{
+    opacity: 100%;
+}
+
+.slideshow-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    animation-name: slideshow;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes slideshow{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+#textContainer{
+    margin-top: 10px;
+    display: flex;
+}
+
+#h1{
+    margin-top: 20px;
+    margin-left: 419px;
+    margin-right: 15px;
+    opacity: 60%;
+    font-size: 15pt;
+}
+
+#h2{
+    margin-top: 25PX;
+    font-size: 12pt;
+}
+
+#h2:hover{
+    color: brown;
+}
+
+#deals-container{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.boxStyleSmall{
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.boxStyleSmall:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+
+.boxStyleBig{
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.boxStyleBig:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+
+.boxText{
+    white-space: pre-line;
+    font-size: 18pt;
+    color: black;
+}
+
+.seeMoreLink{
+    white-space: nowrap;
+    float: inline-end;
+    font-size: 12pt;
+}
+
+.seeMoreLink a:hover{
+    color: brown;
+}
+
+#footer{
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 50px;
+    box-shadow: -1px -1px lightgray;
+    background-color: whitesmoke;
+    text-align: center;
+}
